@@ -5,7 +5,7 @@
     <div class="form-group">
       <label class="control-label" for="title">Title</label>
       <div class="controls">
-        <input name="title" id="title" type="text" value="" placeholder="Name your post." class="form-control"/>
+        <input name="title" id="title" type="text" value="" placeholder="What do you want to do?" class="form-control"/>
         <span class="help-block">{{errorMessage 'title'}}</span>
       </div>
     </div>
@@ -14,23 +14,23 @@
     <div class="form-group">
       <label class="control-label" for="activity">Activity</label>
       <div class="controls">
-        <input name="activity" id="activity" type="text" value="" placeholder="What are we doing?" class="form-control"/>
+        <input name="activity" id="activity" type="text" value="" placeholder="Activity type/name." class="form-control"/>
         <span class="help-block">{{errorMessage 'activity'}}</span>
       </div>
     </div>
 
 
     <div class="form-group">
-      <label class="control-label" for="description">Description, Location</label>
+      <label class="control-label" for="description">Description</label>
       <div class="controls">
-        <input name="description" id="description" type="text" value="" placeholder="Taunt your challenger. Designate a battleground." class="form-control"/>
+        <input name="description" id="description" type="text" value="" placeholder="Details? Location? " class="form-control"/>
         <span class="help-block">{{errorMessage 'description'}}</span>
       </div>
     </div>
 
 
     <div class="form-group">
-      <label class="control-label" for="datetime">Pick a date and time. (Optional)</label>
+      <label class="control-label" for="datetime">(Optional) Date and Time</label>
         {{> datetimepicker}}
     </div>
 
