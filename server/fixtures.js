@@ -44,7 +44,7 @@ if (Posts.find().count() === 0) {
     userId: song._id,
     author: song.username,
     submitted: new Date(now - 3 * 3600 * 1000),
-    body: "No worries, I'm open to players of all levels."
+    body: "No worries, I'm a total beginner."
   });
 
   Posts.insert({
